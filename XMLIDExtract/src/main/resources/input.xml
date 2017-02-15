@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:getUserByNameResponse xmlns:ns2="http://spotfire.tibco.com/ws/pub/2013/03/userdir.xsd" xmlns:ns3="http://spotfire.tibco.com/ws/pub/2013/03/faults.xsd">
+            <return>
+                <id>1ac4e618-81b7-43f1-9d7a-772f55fb9d3b</id>
+                <principalName xsi:type="ns2:UserName" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <name>testuser2</name>
+                    <domainName>SPOTFIRE</domainName>
+                </principalName>
+                <displayName>Test User 2</displayName>
+                <email>test@user.net</email>
+                <enabled>true</enabled>
+            </return>
+        </ns2:getUserByNameResponse>
+    </soap:Body>
+</soap:Envelope>
